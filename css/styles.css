@@ -81,6 +81,9 @@ html {
     font-style: italic;
     margin-top: -3rem;
 }
+.oneWayDesc{
+    text-align: center;
+}
 .disc{
     color: gray;
 }
@@ -172,6 +175,9 @@ div li, div p{
         padding-top: 2em;
         margin:0;
     }
+    .oneWayDesc{
+        text-align: left;
+    }
     .price{
         font-size: 2em;
         padding: 0;
@@ -213,6 +219,9 @@ div li, div p{
     {
         padding-top: 1em;
         margin:0;
+    }
+    .oneWayDesc{
+        text-align: left;
     }
     .price{
         font-size: 2em;
@@ -327,6 +336,9 @@ div li, div p{
         padding-top: .8em;
         margin:0;
     }
+    .oneWayDesc{
+        text-align: left;
+    }
     .price{
         text-align: center;
         font-size: 1.5em;
@@ -388,6 +400,9 @@ div li, div p{
         padding-top: .8em;
         margin:0;
     }
+    .oneWayDesc{
+        text-align: left;
+    }
     .price{
         text-align: center;
         font-size: 1.5em;
@@ -448,6 +463,9 @@ div li, div p{
     {
         padding-top: .8em;
         margin:0;
+    }
+    .oneWayDesc{
+        text-align: left;
     }
     .price{
         text-align: center;
@@ -513,6 +531,9 @@ div li, div p{
     {
         padding-top: .8em;
         margin:0;
+    }
+    .oneWayDesc{
+        text-align: left;
     }
     .price{
         text-align: center;
