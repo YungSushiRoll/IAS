@@ -96,7 +96,7 @@
                     </div>
                     <div class="product remote col-xl-6 col-md-6 col-sm-6">
                         <img class="img-fluid" src="images/good/4115v-1.png" alt="Viper 4115v">
-                        <div>
+                        <div class="detail-header">
                             <p class="price">$399.99</p>
                             <p>One Button 1-Way Installed</p>
                             <p>Includes DS4 or DS4+ and T Harness</p>                            
@@ -120,7 +120,7 @@
                     </div>
                     <div class="product remote col-xl-6 col-md-6 col-sm-6">
                         <img class="img-fluid" src="images/good/4105v-1.png" alt="Viper 4105v"> 
-                        <div>
+                        <div class="detail-header">
                             <p class="price">$399.99</p>
                             <p>Four Button 1-Way Installed</p>
                             <p>Includes DS4 or DS4+ and T Harness</p>
@@ -171,7 +171,7 @@
                     </div>
                     <div class="product remote col-xl-4 col-sm-6">
                         <img class="img-fluid" src="images/better/4816v-1.png" alt="Viper 4816v">
-                        <div>
+                        <div class="detail-header">
                             <p class="price">$469.99</p>
                             <p>One Button 2-Way Installed</p>
                             <p>Includes DS4 or DS4+ and T Harness</p>
@@ -199,7 +199,7 @@
                     </div>
                     <div class="product remote col-xl-4 col-sm-6">
                         <img class="img-fluid" src="images/better/4806v-1.png" alt="Viper 4806v">
-                        <div>                            
+                        <div class="detail-header">                            
                             <p class="price">$469.99</p>
                             <p>Five Button LED 2-Way Installed</p>
                             <p>Includes DS4 or DS4+ and T Harness</p>
@@ -230,7 +230,7 @@
                     </div>
                     <div class="product remote col-xl-4 col-sm-6">
                         <img class="img-fluid" src="images/better/4706v-1.png" alt="Viper 4706v">
-                        <div>
+                        <div class="detail-header">
                             <p class="price">$539.99</p>
                             <p>Five Button LCD 2-Way Installed</p>
                             <p>Includes DS4 or DS4+ and T Harness</p>
@@ -273,35 +273,38 @@
                     <div class="product-text">
                         <h2>SmartStart Remote Start System</h2>
                     </div>
-                    <div class="product col-xl-6 col-md-6 col-sm-12">
-                        <img class="img-fluid" src="images/best/vsm550-1.png" alt="Viper vsm550">
-                        <p>Viper Smart Start VSM550</p>
-                        <p>Includes DS4 or DS4+ and T Harness</p>
-                        <button>Product Details</button> 
-                    </div>
-                    <div class="product col-xl-6 col-md-6 col-sm-12">
-                        <p class="itemDesc">
-                            Viper SmartStart lets you remote start, lock and unlock your car with the push of a button on your smartphone.                            
-                        </p>
-                        <p>
-                            The SmartStart system allows you to monitor and operate your car alarm, and or, remote
-                            starter from anywhere in the world from your smartphone.  A service plan is required.  The basic monthly
-                            service plan is free for a year!  Additional benefits (dependent on plan).
-                        </p>
-                        <ul>
-                            <li>GPS monitoring and tracking</li>
-                            <li>Roadside assistance</li>
-                            <li>Trip history breadcrumb trails</li>
-                            <li>Battery alerts and check engine codes</li>
-                            <li>Careless driving alerts</li>
-                            <li>Web portal monitoring</li>
-                            <li>Monitor multiple vehicles from one account</li>
-                            <li>Vehicle impact alerts</li>
-                        </ul>
-                        <p>
-                            You can also control multiple vehicles - great for families! - and assign more than one user to control a vehicle.
-                        </p>
-                    </div>
+                    <div class="row">
+                        <div class="product detail-header col-xl-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="images/best/vsm550-1.png" alt="Viper vsm550">
+                            <p class="price">$539.99</p>
+                            <p>Smart Start Pro</p>
+                            <p>Includes DS4+ and T Harness</p>
+                            <!-- <button>Product Details</button>  -->
+                        </div>
+                        <div class="addOnDesc col-xl-6 col-md-6 col-sm-12">                    
+                            <p>
+                                This system includes everything you need to remote start, lock and unlock, locate and
+                                control your car from your smartphone from virtually anywhere in the world. Virtually unlimited range!                            
+                            </p>
+                            <p>
+                                *Please note a service plan is required. The basic monthly service plan is free for a year!
+                                Additional benefits (dependent on plan).
+                            </p>
+                            <ul>
+                                <li>GPS monitoring and tracking</li>
+                                <li>Roadside assistance</li>
+                                <li>Trip history breadcrumb trails</li>
+                                <li>Battery alerts and check engine codes</li>
+                                <li>Careless driving alerts</li>
+                                <li>Web portal monitoring</li>
+                                <li>Monitor multiple vehicles from one account</li>
+                                <li>Vehicle impact alerts</li>
+                            </ul>
+                            <p>
+                                You can also control multiple vehicles - great for families! - and assign more than one user to control a vehicle.
+                            </p>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </fieldset>
@@ -313,38 +316,74 @@
             <div class="container clearfix rounded pt-3 pb-3">
                 <div class="grid">
                     <div class="product-text">
-                        <h2>Upgrades</h2>
-                        <h4>Add Security</h4>
+                        <h2>Upgrades</h2>                        
                     </div>
-                    <div class="product col-xl-6 col-md-6 col-sm-12">
-                        <img class="img-fluid" src="images/ultimate/vsm550-1.png" alt="Viper 4115v">
-                        <p>Security Upgrade for Viper DS4+ Remote Start Systems</p>
-                        <button>Product Details</button>
-                    </div>
-                    <div class="product col-xl-6 col-md-6 col-sm-12">
-                        <div class="itemDesc">
+                    <!-- <div class="row">
+                        <div class="product col-xl-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="images/ultimate/security-1.png" alt="Viper 4115v">
+                            <p>Security Upgrade for Viper DS4+ Remote Start Systems</p>
+                            <button>Product Details</button>
+                        </div>
+                        <div class="col-xl-6 col-md-6 col-sm-12">
+                            <div>
+                                <h4>Add Security</h4>
+                                <p>
+                                    Protect your vehicle from theft with this Directed DS4+ security kit. It includes a
+                                    six-tone mini siren that audibly alerts you when someone tries to break into your car,
+                                    and the shock/tilt sensor activates the alarm and acts as a deterrent for potential intruders.
+                                    This Directed DS4+ security kit works with existing remote start systems for full security protection.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <b>Add security to Viper DS4+</b><br>                                    
+                                        Create a complete and fully-featured DS4+ remote start and security system for full vehicle security and convenience.
+                                    </li>
+                                    <li>
+                                        <b>Add additional protection</b><br>
+                                        Guards against vehicle theft, component theft or content theft.
+                                    </li>
+                                    <li>                                
+                                        <b>Upgrade kit</b><br>
+                                        Includes a shock/tilt sensor and six-tone siren.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="row">
+                        <div class="product detail-header col-xl-6 col-md-6 col-sm-12">
+                            <img class="img-fluid" src="images/ultimate/smartStartPro.png" alt="Viper vsm550">
+                            <p class="price">$169.99</p>
+                            <p>Smart Start Pro Add-on</p>
+                            <p>(Does Not Include the DS4+ and T-Harness)</p>
+                            <!-- <button>Product Details</button>  -->
+                        </div>
+                        <div class="addOnDesc col-xl-6 col-md-6 col-sm-12">
+                            <h4 class="text-center">Add Smart Start</h4>
                             <p>
-                                Protect your vehicle from theft with this Directed DS4+ security kit. It includes a
-                                six-tone mini siren that audibly alerts you when someone tries to break into your car,
-                                and the shock/tilt sensor activates the alarm and acts as a deterrent for potential intruders.
-                                This Directed DS4+ security kit works with existing remote start systems for full security protection.
+                                Add the Smart Start Pro to any of our Remote Start packages on this website for $169.99.
+                                (All of our remote start packages include the DS4 or DS4+ and T-Harnes which are
+                                required to operate the Smart Start Pro)
                             </p>
                             <ul>
                                 <li>
-                                    <b>Add security to Viper DS4+</b><br>                                    
-                                    Create a complete and fully-featured DS4+ remote start and security system for full vehicle security and convenience.
+                                    World’s Fastest Connected Vehicle!                                        
                                 </li>
                                 <li>
-                                    <b>Add additional protection</b><br>
-                                    Guards against vehicle theft, component theft or content theft.
+                                    GPS monitoring & alerts
                                 </li>
-                                <li>                                
-                                    <b>Upgrade kit</b><br>
-                                    Includes a shock/tilt sensor and six-tone siren.
+                                <li>                                                                        
+                                    Remote start, lock, and unlock with most digital remote start or security systems                                        
+                                </li>
+                                <li>
+                                    Ultra-reliable North America coverage over 4G LTE/3G fallback
+                                </li>
+                                <li>
+                                    Stealth installation under the dash
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </div>
         </fieldset>

@@ -1,5 +1,8 @@
-h1, h2{
+h1, h2, h3, h4, h5{
     font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+h1, h2{
     font-size: calc(1.5rem + 1.5vw);
 }
 h2{
@@ -64,6 +67,9 @@ html {
     font-size: 18px; font-family: 'Asap', sans-serif;
     padding-top: 5%;
 }
+.addOnDesc{
+    margin-top: 3rem;
+}
 .loc {
     font-family: 'Asap', sans-serif;
     text-align: center;
@@ -127,8 +133,10 @@ div li, div p{
 .product
 {
     display: block;
-    text-align: center;
     float: left;
+}
+.detail-header{
+    text-align: center;
 }
 .product-text{
     display: inline-block;
@@ -402,6 +410,9 @@ div li, div p{
     }
     .oneWayDesc{
         text-align: left;
+    }
+    .addOnDesc{
+        margin-top: 1rem;
     }
     .price{
         text-align: center;
