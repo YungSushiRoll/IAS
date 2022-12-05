@@ -9,8 +9,11 @@ $(document).ready(function(){
     $('.featBtnAction').on('click', function(){
 
         if ($(this).text().includes("↓ PRODUCT")){
+            console.log('were here');
+            console.log($(this).text())
             $(this).html("&uarr; PRODUCT DETAILS &uarr;")
-        } else {
+        } else {        
+            console.log($(this).text())
             $(this).html("&darr; PRODUCT DETAILS &darr;")
         }
         
