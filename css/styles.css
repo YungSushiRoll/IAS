@@ -543,6 +543,7 @@ div li, div p{
         color: white;
         /* color: #198754; */
         opacity: .5;
+        margin-bottom: 3rem;
     }
     /* .navbar-brand{
         margin: auto;
