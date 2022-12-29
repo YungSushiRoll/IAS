@@ -7,7 +7,6 @@
 $(document).ready(function(){
 
     $('.featBtnAction').on('click', function(){
-
         if ($(this).text().includes("↓ PRODUCT")){
             console.log('were here');
             console.log($(this).text())
